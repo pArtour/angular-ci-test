@@ -1,0 +1,1 @@
+npx lighthouse https://example.com --output=json --output-path=./lighthouse-results.json
