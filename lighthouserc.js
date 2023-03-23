@@ -26,6 +26,9 @@ module.exports = {
       url: ["http://localhost:4200/"],
       staticDistDir: "./dist/angular-ci",
       isSinglePageApplication: true,
+      settings: {
+        chromeFlags: "--disable-gpu --no-sandbox",
+      },
     },
   },
 };
